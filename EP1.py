@@ -70,7 +70,7 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
     produto4= "|4- X-MINIEP---------------------R$9.75 {}|".format(p4)
     precop4=9.75
         #produto5
-    produto5= "|5- COCA-RETORNAVEL--------------R$3.00 {}|".format(p5)
+    produto5= "|5- COCA--------------R$3.00 {}|".format(p5)
     precop5=3.00
     info=("|6- Informações Internas                 |")
     fim=("|7- Encerrar sessão                      |")
