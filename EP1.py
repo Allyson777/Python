@@ -89,10 +89,8 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
     if pedido==1:
         if p1>0:
             limpaTela()
-            print(f"A opção escolhida foi:\n{produto1}\nPreço: R$7,50") 
-            n=int(input("Você deseja quantas unidades: ")) 
-            p1-=n
-            precop1=precop1*n
+            print(f"A opção escolhida foi:\n{produto1}\nPreço: R$7,50")  
+            p1-=1
             pagamento(precop1,p1,p2,p3,p4,p5)
             produtos(p1,p2,p3,p4,p5)
         else:
@@ -109,9 +107,7 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
         if p2>0:
             limpaTela()
             print(f"A opção escolhida foi:\n{produto2}\nPreço: R$5,00")
-            n=int(input("Você deseja quantas unidades: ")) 
-            p2-=n
-            precop2=precop2*n
+            p2-=1
             pagamento(precop2,p1,p2,p3,p4,p5)
             produtos(p1,p2,p3,p4,p5)
         else:
@@ -128,9 +124,7 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
         if p3 >0:
             limpaTela()
             print(f"A opção escolhida foi:\n{produto3}\nPreço: R$4,50")
-            n=int(input("Você deseja quantas unidades: ")) 
-            p3-=n
-            precop3=precop3*n
+            p3-=1
             pagamento(precop3,p1,p2,p3,p4,p5)
             produtos(p1,p2,p3,p4,p5)
         else:
@@ -147,9 +141,7 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
         if p4>0:
             limpaTela()
             print(f"A opção escolhida foi:\n{produto4}\nPreço: R$9,75")
-            n=int(input("Você deseja quantas unidades: ")) 
-            p1-=n
-            precop4=precop4*n
+            p4-=1
             pagamento(precop4,p1,p2,p3,p4,p5)
             produtos(p1,p2,p3,p4,p5)
         else:
@@ -166,9 +158,7 @@ def produtos(p1=5,p2=5,p3=5,p4=5,p5=5):
         if p5>0:
             limpaTela()
             print(f"A opção escolhida foi:\n{produto5}\nPreço: R$3,00")             
-            n=int(input("Você deseja quantas unidades: ")) 
-            p5-=n
-            precop5=precop5*n
+            p5-=1
             pagamento(precop5,p1,p2,p3,p4,p5)
             produtos(p1,p2,p3,p4,p5)
         else:
